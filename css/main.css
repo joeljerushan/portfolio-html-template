@@ -122,7 +122,7 @@ a {
 }
 .home_featured .row {
     height: 400px;
-    background-image: url(/images/home_top.jpg);
+    background-image: url(../images/home_top.jpg);
     background-size: cover;
     background-position: right;
 }
