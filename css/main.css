@@ -1,0 +1,240 @@
+
+/*font family bold*/
+@font-face {
+    font-family: 'ubuntubold';
+    src: url('../fonts/ubuntu-bold-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*font family regular*/
+@font-face {
+    font-family: 'ubunturegular';
+    src: url('../fonts/ubuntu-regular-webfont.woff2') format('woff2'),
+         url('../fonts/ubuntu-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    margin: 0;
+    color: #222;
+    font-family: 'ubunturegular' !important;
+}
+h1,h2,h3,h4,h5,strong {
+    margin: 0;
+    font-family: 'ubuntubold' !important;
+}
+textarea, input {
+    font-family: 'ubunturegular' !important;
+}
+a {
+    text-decoration: none;
+}
+.button {
+    white-space: nowrap;
+    display: inline-block;
+    line-height: 37px;
+    padding: 0 14px;
+    -webkit-box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08) !important;
+    box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08) !important;
+    background: #fff;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .025em;
+    color: #6772e5;
+    text-decoration: none;
+    -webkit-transition: all .15s ease;
+    transition: all .15s ease;
+}
+.is-bg-red {
+    background-color: #ce181e;
+    color: #fff;
+}
+.is-bg-yellow {
+    background-color: #feb421;
+    color: #000;
+}
+.row {
+    width: 800px;
+    margin: 0 auto;
+}
+.row:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+
+
+.head {
+    padding: 20px;
+    background-color: #ce181e;
+
+}
+
+.logo {
+    float: left;
+}
+.logo a {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'ubuntubold' !important;
+}
+
+.menu {
+    float: right;
+}
+.menu ul {
+    margin: 0;
+}
+.menu ul li {
+    float: left;
+    list-style: none;
+    margin-left: 20px;
+}
+.menu ul li a {
+    color: #fff;
+    font-size: 14px;
+    background-color: transparent;
+    border: none;
+    box-shadow: none !important;
+    transition: 500ms all;
+}
+.menu ul li a.active, .menu ul li a:hover {
+    background-color: #ef2523;
+}
+
+
+.home_featured {
+    background-color: #2f073f;
+}
+.home_featured .row {
+    height: 400px;
+    background-image: url(/images/home_top.jpg);
+    background-size: cover;
+    background-position: right;
+}
+.home_featured .title {
+    padding: 170px 0px;
+}
+.home_featured .title h1 {
+    color: #feb421;
+}
+
+.footer {
+    padding: 20px;
+    color: #ababab;
+}
+
+
+.page_title {
+    padding: 20px;
+}
+.page_title .title {
+    border-bottom: 2px solid #e8e8e8;
+}
+.page_title .title p {
+    margin: 0;
+    color: #929292;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+
+.page_content .page_data {
+    width: 550px;
+    color: #656565;
+}
+.page_content .sidebar {
+    width: 250px;
+}
+.page_content .sidebar img {
+    width: 100%; 
+}
+
+
+.single_work {
+    width: 200px;
+    float: left;
+}
+.single_work img {
+    display: block;
+    width: 100%;
+}
+
+.blog_data ul { 
+    margin: 0;
+    padding: 0;
+}
+.blog_data ul li { 
+    list-style: none;
+    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
+.blog_data ul li:after {
+    content: ' ';
+    clear: both;
+    display: block;
+}
+.blog_data ul li a { font-family: 'ubuntubold' !important; }
+.blog_data ul li .image { 
+    width: 200px;
+    float: left;
+    
+}
+.blog_data ul li img { 
+    width: 100%;
+    
+}
+.blog_data ul li .meta { 
+    width: 560px;
+    float: right;
+    padding: 20px;
+}
+.blog_data ul li .meta a {
+    font-family: 'ubuntubold' !important;
+    font-size: 23px;
+    color: black;
+}
+.blog_data ul li .meta p {
+    margin-bottom: 0;
+}
+
+
+.contact_data {
+    width: 400px;
+}
+.contact_map {
+    width: 400px;
+}
+.contact_map iframe {
+    border: 2px solid #e4e4e4 !important;
+}
+.form_group {
+    margin-bottom: 20px;
+}
+.form_group label {
+    display: block;
+}
+.form_group input, .form_group textarea {
+    display: block;
+    width: 350px;
+    padding: 10px;
+    border: 2px solid #e4e4e4;
+}
+.form_group textarea {
+    height: 150px;
+}
